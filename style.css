@@ -1,0 +1,63 @@
+/* @font-face {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+} */
+
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: 500ms;
+}
+
+main {
+    margin: 0 auto;
+    padding: 1vh;
+    border: 1px solid black;
+}
+
+hr {
+    margin: 50px 0;
+}
+
+.mode-nuit {
+    background: black;
+    color: white;
+}
+
+h1 {
+    font-size: 4.6em;
+    margin: 0 0 5vh 0;
+}
+
+h2 {
+    font-size: 2em;
+    margin: 0 0 2vh 0;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin: 0 0 2vh 0;
+}
+
+p {
+    margin: 0 0 5vh 0;
+    line-height: 1.6em;
+}
+
+a {
+    color: black;
+}
+
+.projets-cards {
+    min-height: 100px;
+}
+
+@media (min-width: 600px) {
+    h1 {
+        font-size: 6em;
+    }
+}
+
+@media (min-width: 768px) {
+    main {
+        max-width: 600px;
+    }
+}
