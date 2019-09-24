@@ -7,14 +7,25 @@ html {
     transition: 500ms;
 }
 
-main {
+body {
     margin: 0 auto;
     padding: 1vh;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 hr {
     margin: 50px 0;
+}
+
+#bouton-mode-nuit {
+    text-align: right;
+    position: fixed;
+    right: calc(0px + 1vh);
+}
+
+#bouton-mode-nuit small {
+    cursor: pointer;
+    background: red;
 }
 
 .mode-nuit {
@@ -24,7 +35,7 @@ hr {
 
 h1 {
     font-size: 4.6em;
-    margin: 0 0 5vh 0;
+    margin: 5vh 0;
 }
 
 h2 {
@@ -40,14 +51,28 @@ h3 {
 p {
     margin: 0 0 5vh 0;
     line-height: 1.6em;
+    text-align: justify;
 }
 
 a {
-    color: black;
+    color: inherit;
 }
 
-.projets-cards {
-    min-height: 100px;
+.projets img {
+    width: 100%;
+}
+
+.sites-flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.sites {
+    margin: 0 auto;
+}
+
+.sites img {
+    width: 50px;
 }
 
 @media (min-width: 600px) {
@@ -57,7 +82,7 @@ a {
 }
 
 @media (min-width: 768px) {
-    main {
+    body {
         max-width: 600px;
     }
 }
