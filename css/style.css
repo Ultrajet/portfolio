@@ -1,6 +1,8 @@
-/* @font-face {
+/* restes de la première version
+
+@font-face {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
-} */
+}
 
 html {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -10,7 +12,7 @@ html {
 body {
     margin: 0 auto;
     padding: 1vh;
-    /* border: 1px solid black; */
+    border: 1px solid black;
 }
 
 hr {
@@ -85,4 +87,4 @@ a {
     body {
         max-width: 600px;
     }
-}
+} */

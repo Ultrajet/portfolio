@@ -7,14 +7,38 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <!-- link rel="stylesheet" href="css/style.css" -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
 
 <body>
 
+    <nav class="navbar navbar-expand-md navbar-dark bg-primary mb-3">
+        <a href="#" class="navbar-brand">Quentin Lagadou</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse justify-content-stretch" id="navbar">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">projets</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">à propos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">compétences</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
     <div class="container col-md-6 border">
+
         <header class="d-flex justify-content-between flex-wrap">
             <img src="./assets/me.jpg" alt="Quentin Lagadou" class="mx-auto img-thumbnail rounded-circle">
             <div class="mx-auto text-center align-self-center">
@@ -111,7 +135,7 @@
                 <h4>mes compétences techniques</h4>
                 <p>
                     langages :<br>
-                    HTML, CSS, Javascript + jQuery, PHP, MySQL
+                    HTML, CSS, Javascript + jQuery, PHP, SQL
                 </p>
                 <p class="text-right">
                     librairies/frameworks :<br>
@@ -127,9 +151,24 @@
                     NodeJS, Java (J2E), Python, Docker, Kubernetes
                 </p>
             </div>
+            <hr>
+            <div id="contact">
+                <h4>contact</h4>
+                <p class="text-justify">
+                    Vous souhaitez en savoir plus sur mes compétences ou les projets que j'ai
+                    menés? Vous avez une place pour moi dans votre équipe? Vous voulez
+                    parler musique ou jeux vidéos?<br>
+                    N'hésitez pas à envoyer un message, je vous réponds au plus vite.
+                </p>
+                <p class="text-center"><small>formulaire</small></p>
+            </div>
         </main>
 
     </div>
+
+    <footer class="bg-primary p-3 mt-3">
+        <p class="text-light text-center m-0">2020 - fait avec ️❤ par Quentin Lagadou</p>
+    </footer>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
