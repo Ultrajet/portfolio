@@ -9,7 +9,7 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
+    <title>Quentin Lagadou - Développeur Web</title>
 </head>
 
 <body>
@@ -45,7 +45,7 @@
                 <h1>Quentin Lagadou</h1>
                 <h2>Développeur Web Junior</h2>
                 <h3>PHP/JS/SQL - Symfony 4</h3>
-                <small>GitHub - LinkedIn</small>
+                <span><img src="assets/github.png" height="30" class="pr-2"><img src="assets/linkedin.png" height="30"></span>
             </div>
         </header>
         <hr>
@@ -53,14 +53,14 @@
             <div id="projets">
                 <h3>projets open-source</h3>
                 <section>
-                    <h4 class="text-center">logo - Walk & Meet</h3>
+                    <h4 class="text-center"><img src="assets/walk&meet.png" height="30"> <em>Walk & Meet</em></h3>
                         <p class="text-justify">Companion app pour les jeux à réalité augmentée (type
                             Pokémon Go). Les utilisateurs peuvent se géolocaliser afin
                             de rencontrer des personnes dans leurs environs et jouer
                             avec eux. Ils disposent d’une messagerie instantanée afin de
                             communiquer. Projet de soutenance pour le titre
                             professionnel Développeur web et web mobile.</p>
-                        <p class="text-center">logo - <a
+                        <p class="text-center"><img src="assets/git_repo.png" height="25" class="pr-1"> <a
                                 href="https://github.com/Ultrajet/projetgo">https://github.com/Ultrajet/projetgo</a></p>
                         <button type="button" class="d-block mx-auto btn btn-info">Screenshots</button>
                         <p><em>Equipe : deux développeurs (front + full-stack), un web designer et un chef de
@@ -70,14 +70,14 @@
                 </section>
                 <hr>
                 <section>
-                    <h4 class="text-center">logo - Geek’ation</h3>
+                    <h4 class="text-center"><img src="assets/geekation.png" height="40"> <em>Geek’ation</em></h3>
                         <p class="text-justify">Application web pour une boutique de location de matériel
                             gaming (console, jeux et accessoires). Le site permet une
                             gestion des stocks, commandes et utilisateurs pour les
                             administrateurs. Les utilisateurs peuvent louer pour autant
                             de temps qu’ils veulent, à partir de 24 heures. Projet de
                             soutenance pour Webforce3.</p>
-                        <p class="text-center">logo - <a
+                        <p class="text-center"><img src="assets/git_repo.png" height="25" class="pr-1"> <a
                                 href="https://github.com/Ultrajet/Geekation">https://github.com/Ultrajet/Geekation</a>
                         </p>
                         <button type="button" class="d-block mx-auto btn btn-info">Screenshots</button>
@@ -87,7 +87,7 @@
                 </section>
                 <hr>
                 <section>
-                    <h4 class="text-center">logo - We’R Généalogie (en cours)</h3>
+                    <h4 class="text-center"><img src="assets/genealogie.png" height="40"> <em>We'R Généalogie (en cours)</em></h3>
                         <p class="text-justify">Site web servant d’outil pour générer des arbres
                             généalogiques dynamiques. L’affichage gère pour le moment
                             deux générations, parmi lesquelles le visiteur peut naviguer
@@ -97,7 +97,7 @@
                             duo, sert d’expérimentation, entre autre pour savoir jusqu’où
                             il est possible de coder en PHP procédural avant de migrer
                             sur un framework MVC type Symfony.</p>
-                        <p class="text-center">logo - <a
+                        <p class="text-center"><img src="assets/git_repo.png" height="25" class="pr-1"> <a
                                 href="https://github.com/bldlr/Genealogie">https://github.com/bldlr/Genealogie</a></p>
                         <button type="button" class="d-block mx-auto btn btn-info">Screenshots</button>
                         <p><em>Equipe : deux développeurs full-stack<br>
@@ -127,7 +127,7 @@
                         amis. Depuis, je monte en expérience en poursuivant des projets en équipe,
                         où je peux mettre au service du collectif mon esprit hybride
                         technologique-artistique.</p>
-                    <p class="text-center">Mon CV : logo</p>
+                    <p class="text-center">Mon CV : <img src="assets/pdf.png" height="40"></p>
                 </section>
             </div>
             <hr>
