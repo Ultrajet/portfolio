@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Archivo&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <title>Quentin Lagadou - Développeur Web</title>
 </head>
@@ -37,78 +38,82 @@
         </div>
     </nav>
 
-    <div class="container col-md-6 border">
+    <div class="container col-md-6">
 
         <header class="d-flex justify-content-between flex-wrap">
             <img src="./assets/me.jpg" alt="Quentin Lagadou" class="mx-auto img-thumbnail rounded-circle">
             <div class="mx-auto text-center align-self-center">
-                <h1>Quentin Lagadou</h1>
-                <h2>Développeur Web Junior</h2>
-                <h3>PHP/JS/SQL - Symfony 4</h3>
-                <span><img src="assets/github.png" height="30" class="pr-2"><img src="assets/linkedin.png" height="30"></span>
+                <h1 class="text-info mb-0">Quentin Lagadou</h1>
+                <h2 class="mb-0" style="font-size: 2rem">Développeur Web Junior</h2>
+                <h3 style="font-size: 1.5rem">PHP/JS/SQL - Symfony 4</h3>
+                <span><img src="assets/github.png" height="25" class="pr-2"><img src="assets/linkedin.png"
+                        height="25"></span>
             </div>
         </header>
-        <hr>
+        <hr class="my-4">
         <main>
             <div id="projets">
-                <h3>projets open-source</h3>
+                <h3 class="mb-4">projets open-source</h3>
                 <section>
-                    <h4 class="text-center"><img src="assets/walk&meet.png" height="30"> <em>Walk & Meet</em></h3>
-                        <p class="text-justify">Companion app pour les jeux à réalité augmentée (type
-                            Pokémon Go). Les utilisateurs peuvent se géolocaliser afin
-                            de rencontrer des personnes dans leurs environs et jouer
-                            avec eux. Ils disposent d’une messagerie instantanée afin de
-                            communiquer. Projet de soutenance pour le titre
-                            professionnel Développeur web et web mobile.</p>
-                        <p class="text-center"><img src="assets/git_repo.png" height="25" class="pr-1"> <a
-                                href="https://github.com/Ultrajet/projetgo">https://github.com/Ultrajet/projetgo</a></p>
-                        <button type="button" class="d-block mx-auto btn btn-info">Screenshots</button>
-                        <p><em>Equipe : deux développeurs (front + full-stack), un web designer et un chef de
-                                projet<br>
-                                #socialnetwork #symfony #php #mysql #javascript #jquery #ajax #bootstrap #leaflet
-                                #mapbox #openstreetmap #mobilefirst</em></p>
+                    <h4 class="text-center"><img src="assets/walk&meet.png" height="30"> <em>Walk &
+                            Meet</em></h4>
+                    <p class="text-justify description">Companion app pour les jeux à réalité augmentée (type
+                        Pokémon Go). Les utilisateurs peuvent se géolocaliser afin
+                        de rencontrer des personnes dans leurs environs et jouer
+                        avec eux. Ils disposent d’une messagerie instantanée afin de
+                        communiquer. Projet de soutenance pour le titre
+                        professionnel Développeur web et web mobile.</p>
+                    <p class="text-center mb-0"><img src="assets/git_repo.png" height="30" class="pr-1"> <a
+                            href="https://github.com/Ultrajet/projetgo">https://github.com/Ultrajet/projetgo</a></p>
+                    <button type="button" class="d-block mx-auto btn btn-info mb-3">Screenshots</button>
+                    <p class="text-justify"><em>Equipe : deux développeurs (front + full-stack), un web designer et un
+                            chef de
+                            projet<br>
+                            #socialnetwork #symfony #php #mysql #javascript #jquery #ajax #bootstrap #leaflet
+                            #mapbox #openstreetmap #mobilefirst</em></p>
                 </section>
                 <hr>
                 <section>
-                    <h4 class="text-center"><img src="assets/geekation.png" height="40"> <em>Geek’ation</em></h3>
-                        <p class="text-justify">Application web pour une boutique de location de matériel
-                            gaming (console, jeux et accessoires). Le site permet une
-                            gestion des stocks, commandes et utilisateurs pour les
-                            administrateurs. Les utilisateurs peuvent louer pour autant
-                            de temps qu’ils veulent, à partir de 24 heures. Projet de
-                            soutenance pour Webforce3.</p>
-                        <p class="text-center"><img src="assets/git_repo.png" height="25" class="pr-1"> <a
-                                href="https://github.com/Ultrajet/Geekation">https://github.com/Ultrajet/Geekation</a>
-                        </p>
-                        <button type="button" class="d-block mx-auto btn btn-info">Screenshots</button>
-                        <p><em>Equipe : quatre développeurs, deux front et deux back<br>
-                                #ecommerce #symfony #php #mysql #javascript #jquery #ajax #bootstrap
-                                #giantbomb #responsivedesign</em></p>
+                    <h4 class="text-center"><img src="assets/geekation.png" height="40"> <em>Geek’ation</em></h4>
+                    <p class="text-justify description">Application web pour une boutique de location de matériel
+                        gaming (console, jeux et accessoires). Le site permet une
+                        gestion des stocks, commandes et utilisateurs pour les
+                        administrateurs. Les utilisateurs peuvent louer pour autant
+                        de temps qu’ils veulent, à partir de 24 heures. Projet de
+                        soutenance pour Webforce3.</p>
+                    <p class="text-center mb-0"><img src="assets/git_repo.png" height="30" class="pr-1"> <a
+                            href="https://github.com/Ultrajet/Geekation">https://github.com/Ultrajet/Geekation</a>
+                    </p>
+                    <button type="button" class="d-block mx-auto btn btn-info mb-3">Screenshots</button>
+                    <p class="text-justify"><em>Equipe : quatre développeurs, deux front et deux back<br>
+                            #ecommerce #symfony #php #mysql #javascript #jquery #ajax #bootstrap
+                            #giantbomb #responsivedesign</em></p>
                 </section>
                 <hr>
                 <section>
-                    <h4 class="text-center"><img src="assets/genealogie.png" height="40"> <em>We'R Généalogie (en cours)</em></h3>
-                        <p class="text-justify">Site web servant d’outil pour générer des arbres
-                            généalogiques dynamiques. L’affichage gère pour le moment
-                            deux générations, parmi lesquelles le visiteur peut naviguer
-                            en un clic. L’utilisateur pourra renseigner sa propre famille en
-                            base de données, puis obtenir un rendu visuel propre,
-                            entièrement responsive et exportable. Ce site, développé en
-                            duo, sert d’expérimentation, entre autre pour savoir jusqu’où
-                            il est possible de coder en PHP procédural avant de migrer
-                            sur un framework MVC type Symfony.</p>
-                        <p class="text-center"><img src="assets/git_repo.png" height="25" class="pr-1"> <a
-                                href="https://github.com/bldlr/Genealogie">https://github.com/bldlr/Genealogie</a></p>
-                        <button type="button" class="d-block mx-auto btn btn-info">Screenshots</button>
-                        <p><em>Equipe : deux développeurs full-stack<br>
-                                #plaisir #php #mysql #javascript #jquery #ajax #bootstrap #symfony
-                                #responsivedesign</em></p>
+                    <h4 class="text-center"><img src="assets/genealogie.png" height="40"> <em>We'R Généalogie <small>(en
+                                cours)</small></em></h4>
+                    <p class="text-justify description">Site web servant d’outil pour générer des arbres
+                        généalogiques dynamiques. L’affichage gère pour le moment
+                        deux générations, parmi lesquelles le visiteur peut naviguer
+                        en un clic. L’utilisateur pourra renseigner sa propre famille en
+                        base de données, puis obtenir un rendu visuel propre,
+                        entièrement responsive et exportable. Ce site, développé en
+                        duo, sert d’expérimentation, entre autre pour savoir jusqu’où
+                        il est possible de coder en PHP procédural avant de migrer
+                        sur un framework MVC type Symfony.</p>
+                    <p class="text-center mb-0"><img src="assets/git_repo.png" height="30" class="pr-1"> <a
+                            href="https://github.com/bldlr/Genealogie">https://github.com/bldlr/Genealogie</a></p>
+                    <button type="button" class="d-block mx-auto btn btn-info mb-3">Screenshots</button>
+                    <p class="text-justify"><em>Equipe : deux développeurs full-stack<br>
+                            #plaisir #php #mysql #javascript #jquery #ajax #bootstrap #symfony
+                            #responsivedesign</em></p>
                 </section>
             </div>
-            <hr>
+            <hr class="my-4">
             <div id="apropos">
                 <section>
-                    <h4>à propos de moi</h4>
+                    <h3 class="mb-4">à propos de moi</h3>
                     <p class="text-danger text-justify">Je suis diplômé depuis novembre 2019 d'un titre professionnel
                         niveau III
                         Développeur web / web mobile, qui fait suite à une formation intensive de
@@ -130,30 +135,30 @@
                     <p class="text-center">Mon CV : <img src="assets/pdf.png" height="40"></p>
                 </section>
             </div>
-            <hr>
+            <hr class="my-4">
             <div id="competences">
-                <h4>mes compétences techniques</h4>
+                <h3 class="mb-4">mes compétences techniques</h3>
                 <p>
-                    langages :<br>
+                    <span class="titre">langages :</span><br>
                     HTML, CSS, Javascript + jQuery, PHP, SQL
                 </p>
                 <p class="text-right">
-                    librairies/frameworks :<br>
-                    Bootstrap, Wordpress, React, Symfony
+                    <span class="titre">librairies/frameworks :</span><br>
+                    Bootstrap, Wordpress, Symfony
                 </p>
                 <p>
-                    outils :<br>
+                    <span class="titre">outils :</span><br>
                     Visual Studio Code, XAMPP, Git + GitHub, Trello, Slack,
                     Figma
                 </p>
-                <p class="text-right">
-                    ce que j'apprends / ce que j'aimerais apprendre bientôt :<br>
-                    NodeJS, Java (J2E), Python, Docker, Kubernetes
+                <p class="text-right" style="font-size: initial">
+                    <span class="titre">ce que j'apprends / ce que j'aimerais apprendre bientôt :</span><br>
+                    NodeJS, React, Java (J2E), Python, Docker, Kubernetes
                 </p>
             </div>
-            <hr>
+            <hr class="my-4">
             <div id="contact">
-                <h4>contact</h4>
+                <h3 class="mb-4">contact</h3>
                 <p class="text-justify">
                     Vous souhaitez en savoir plus sur mes compétences ou les projets que j'ai
                     menés? Vous avez une place pour moi dans votre équipe? Vous voulez
@@ -167,7 +172,8 @@
     </div>
 
     <footer class="bg-primary p-3 mt-3">
-        <p class="text-light text-center m-0">2020 - fait avec ️❤ par Quentin Lagadou</p>
+        <p class="text-light text-center m-0">© <?= date('Y'); ?> - fait avec ️❤ par Quentin
+            Lagadou</p>
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
