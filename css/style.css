@@ -1,5 +1,13 @@
 body {
+    font-family: 'Roboto', sans-serif
+}
+
+nav, header {
     font-family: 'Archivo', sans-serif
+}
+
+.container {
+    border-radius: 10px
 }
 
 .container p, section a {
@@ -19,7 +27,7 @@ body {
 
 h4 em {
     font-size: 1.2em;
-    background-image: linear-gradient(#fff 50%, yellow 50%)
+    background-image: linear-gradient(#fff 50%, #FAE212 50%)
 }
 
 #competences .titre {

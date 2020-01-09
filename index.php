@@ -9,39 +9,40 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Archivo&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <title>Quentin Lagadou - Développeur Web</title>
 </head>
 
-<body>
+<body class="bg-light">
 
-    <nav class="navbar navbar-expand-md navbar-dark bg-primary mb-3">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-primary mb-3" id="navbar">
         <a href="#" class="navbar-brand">Quentin Lagadou</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-liens">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="navbar-collapse collapse justify-content-stretch" id="navbar">
+        <div class="navbar-collapse collapse justify-content-stretch" id="navbar-liens">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">projets</a>
+                    <a class="nav-link" href="#projets">projets</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">à propos</a>
+                    <a class="nav-link" href="#competences">compétences</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">compétences</a>
+                    <a class="nav-link" href="#apropos">à propos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">contact</a>
+                    <a class="nav-link" href="#contact">contact</a>
                 </li>
             </ul>
         </div>
     </nav>
 
-    <div class="container col-md-6">
+    <div class="container bg-white col-md-6 py-3">
 
         <header class="d-flex justify-content-between flex-wrap">
-            <img src="./assets/me.jpg" alt="Quentin Lagadou" class="mx-auto img-thumbnail rounded-circle">
+            <img src="./assets/me.png" alt="Quentin Lagadou" class="mx-auto img-thumbnail rounded-circle" height="200" width="200">
             <div class="mx-auto text-center align-self-center">
                 <h1 class="text-info mb-0">Quentin Lagadou</h1>
                 <h2 class="mb-0" style="font-size: 2rem">Développeur Web Junior</h2>
@@ -213,6 +214,27 @@
                 </section>
             </div>
             <hr class="my-4">
+            <div id="competences">
+                <h3 class="mb-4">mes compétences techniques</h3>
+                <p>
+                    <span class="titre">langages :</span><br>
+                    HTML, CSS, Javascript + jQuery, PHP, SQL
+                </p>
+                <p class="text-right">
+                    <span class="titre">librairies/frameworks :</span><br>
+                    Bootstrap, Wordpress, Symfony
+                </p>
+                <p>
+                    <span class="titre">outils :</span><br>
+                    Visual Studio Code, XAMPP, Git + GitHub, Trello, Slack,
+                    Figma
+                </p>
+                <p class="text-right" style="font-size: initial">
+                    <span class="titre">ce que j'apprends / ce que j'aimerais apprendre bientôt :</span><br>
+                    NodeJS, React, Java (J2E), Python, Docker, Kubernetes
+                </p>
+            </div>
+            <hr class="my-4">
             <div id="apropos">
                 <section>
                     <h3 class="mb-4">à propos de moi</h3>
@@ -235,9 +257,19 @@
                                     </button>
                                 </div>
                                 <div class="modal-body">
-                                    <p class="text-justify">Mon aventure de développeur commence au début de mon adolescence, en faisant mes armes sur feu Le Site du Zéro où j'ai approché le HTML/CSS d'époque, ainsi que le PHP procédural. J'ai immédiatement accroché au dialogue avec la machine informatique et j'ai découvert un terrain de jeu infini dont les seules limites sont mon imagination.<br>
-                                    <br>
-                                    Plusieurs mods de jeux et expérimentations de musique électronique plus tard, j'ai rejoint Webforce3 en 2019 pour me former professionnellement au métier de Développeur Web. Ici j'ai rencontré des professeurs qui m'ont permis d'asseoir mes connaissances, ainsi que de partager ma passion avec des développeurs en herbe dont certains sont devenus par la suite des amis. Depuis, je monte en expérience en poursuivant des projets en équipe, où je peux mettre au service du collectif mon esprit hybride technologique-artistique.</p>
+                                    <p class="text-justify">Mon aventure de développeur commence au début de mon
+                                        adolescence, en faisant mes armes sur feu Le Site du Zéro où j'ai approché le
+                                        HTML/CSS d'époque, ainsi que le PHP procédural. J'ai immédiatement accroché au
+                                        dialogue avec la machine informatique et j'ai découvert un terrain de jeu infini
+                                        dont les seules limites sont mon imagination.<br>
+                                        <br>
+                                        Plusieurs mods de jeux et expérimentations de musique électronique plus tard,
+                                        j'ai rejoint Webforce3 en 2019 pour me former professionnellement au métier de
+                                        Développeur Web. Ici j'ai rencontré des professeurs qui m'ont permis d'asseoir
+                                        mes connaissances, ainsi que de partager ma passion avec des développeurs en
+                                        herbe dont certains sont devenus par la suite des amis. Depuis, je monte en
+                                        expérience en poursuivant des projets en équipe, où je peux mettre au service du
+                                        collectif mon esprit hybride technologique-artistique.</p>
                                 </div>
                             </div>
                         </div>
@@ -245,27 +277,6 @@
 
                     <p class="text-center">Mon CV : <a href="#"><img src="assets/pdf.png" height="40"></a></p>
                 </section>
-            </div>
-            <hr class="my-4">
-            <div id="competences">
-                <h3 class="mb-4">mes compétences techniques</h3>
-                <p>
-                    <span class="titre">langages :</span><br>
-                    HTML, CSS, Javascript + jQuery, PHP, SQL
-                </p>
-                <p class="text-right">
-                    <span class="titre">librairies/frameworks :</span><br>
-                    Bootstrap, Wordpress, Symfony
-                </p>
-                <p>
-                    <span class="titre">outils :</span><br>
-                    Visual Studio Code, XAMPP, Git + GitHub, Trello, Slack,
-                    Figma
-                </p>
-                <p class="text-right" style="font-size: initial">
-                    <span class="titre">ce que j'apprends / ce que j'aimerais apprendre bientôt :</span><br>
-                    NodeJS, React, Java (J2E), Python, Docker, Kubernetes
-                </p>
             </div>
             <hr class="my-4">
             <div id="contact">
