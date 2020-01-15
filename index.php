@@ -42,7 +42,8 @@
     <div class="container bg-white col-md-6 py-3">
 
         <header class="d-flex justify-content-between flex-wrap">
-            <img src="./assets/me.png" alt="Quentin Lagadou" class="mx-auto img-thumbnail rounded-circle" height="200" width="200">
+            <img src="./assets/me.png" alt="Quentin Lagadou" class="mx-auto img-thumbnail rounded-circle" height="200"
+                width="200">
             <div class="mx-auto text-center align-self-center">
                 <h1 class="text-info mb-0">Quentin Lagadou</h1>
                 <h2 class="mb-0" style="font-size: 2rem">Développeur Web Junior</h2>
@@ -287,7 +288,23 @@
                     parler musique ou jeux vidéos?<br>
                     N'hésitez pas à envoyer un message, je vous réponds au plus vite.
                 </p>
-                <p class="text-center"><small>formulaire</small></p>
+                <form action="">
+                    <div class="row">
+                        <div class="form-group col-sm-6">
+                            <label for="nom">nom</label>
+                            <input type="text" class="form-control" name="nom" id="nom" placeholder="Votre nom">
+                        </div>
+                        <div class="form-group col-sm-6">
+                            <label for="email">mail</label>
+                            <input type="email" class="form-control" name="email" id="email" placeholder="Votre adresse mail">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">message</label>
+                        <textarea class="form-control" name="message" id="message" rows="10" style="color:inherit"></textarea>
+                    </div>
+                    <button type="submit" class="d-block mx-auto btn btn-primary">Envoyer</button>
+                </form>
             </div>
         </main>
 

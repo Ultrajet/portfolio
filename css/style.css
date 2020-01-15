@@ -10,7 +10,7 @@ nav, header {
     border-radius: 10px
 }
 
-.container p, section a {
+.container p, section a, label {
     font-size: 1.3rem;
     line-height: 1.3
 }
