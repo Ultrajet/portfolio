@@ -19,3 +19,5 @@ $message = (new Swift_Message('Test sujet'))
 $numSent = $mailer->send($message);
 
 printf("Sent %d messages\n", $numSent);
+
+//lalala
