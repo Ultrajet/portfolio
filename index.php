@@ -288,7 +288,7 @@
                     parler musique ou jeux vidéos?<br>
                     N'hésitez pas à envoyer un message, je vous réponds au plus vite.
                 </p>
-                <form action="">
+                <form action="form.php" method="post">
                     <div class="row">
                         <div class="form-group col-sm-6">
                             <label for="nom">nom</label>
@@ -296,12 +296,14 @@
                         </div>
                         <div class="form-group col-sm-6">
                             <label for="email">mail</label>
-                            <input type="email" class="form-control" name="email" id="email" placeholder="Votre adresse mail">
+                            <input type="email" class="form-control" name="email" id="email"
+                                placeholder="Votre adresse mail">
                         </div>
                     </div>
                     <div class="form-group">
                         <label for="message">message</label>
-                        <textarea class="form-control" name="message" id="message" rows="10" style="color:inherit"></textarea>
+                        <textarea class="form-control" name="message" id="message" rows="10"
+                            style="color:inherit"></textarea>
                     </div>
                     <button type="submit" class="d-block mx-auto btn btn-primary">Envoyer</button>
                 </form>
