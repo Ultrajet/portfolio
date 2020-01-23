@@ -11,13 +11,14 @@
     <link href="https://fonts.googleapis.com/css?family=Archivo&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon.png">
     <title>Quentin Lagadou - Développeur Web</title>
 </head>
 
 <body class="bg-light">
 
     <nav class="navbar navbar-expand-sm navbar-dark bg-primary mb-3" id="navbar">
-        <a href="#" class="navbar-brand">Quentin Lagadou</a>
+        <a href="https://quentinlagadou.com" class="navbar-brand text-info">Quentin Lagadou</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-liens">
             <span class="navbar-toggler-icon"></span>
         </button>
