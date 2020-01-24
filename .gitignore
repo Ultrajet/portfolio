@@ -1,3 +1,4 @@
-/htdocs
+/htdocs/vendor
 /vendor
-form.php
+/htdocs/form.php
+/form.php
