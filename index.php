@@ -314,7 +314,7 @@
     </div>
 
     <footer class="bg-primary p-3 mt-3">
-        <p class="text-light text-center m-0">© <?= date('Y'); ?> - fait avec ️❤ par Quentin
+        <p class="text-light text-center m-0" style="font-size:12px">© <?= date('Y'); ?> - fait avec ️❤ par Quentin
             Lagadou</p>
     </footer>
 
