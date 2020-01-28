@@ -19,9 +19,9 @@ $(document).ready(() => {
                 (data) => {
                     $("form").html(() => {
                         if (data == 1) {
-                            $("form").html("Message envoyé!");
+                            $("form").html("<p class='text-center' style='font-size:1rem'>Message envoyé!<br>Merci 💕</p>");
                         } else {
-                            $("form").html("Il y a un problème...");
+                            $("form").html("<p class='text-center' style='font-size:1rem'>Il y a un problème...</p>");
                         }
                     })
                 }
