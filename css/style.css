@@ -10,12 +10,6 @@ nav, header {
     border-radius: 10px
 }
 
-/* .ancre:before {
-    height: 80px;
-    content: "";
-    display: block
-} */
-
 .container p, section a, label {
     font-size: 1.3rem;
     line-height: 1.3

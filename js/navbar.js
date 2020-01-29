@@ -2,10 +2,10 @@ $(document).ready(() => {
 
     var divId;
 
-    $('.nav-link').click(function () {
+    $('.nav-link, .navbar-brand').click(function () {
         divId = $(this).attr('href');
         $('html, body').animate({
-            scrollTop: $(divId).offset().top - 70
+            scrollTop: $(divId).offset().top - 80
         }, 1000);
     });
 

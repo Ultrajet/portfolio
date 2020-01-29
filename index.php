@@ -18,7 +18,7 @@
 <body class="bg-light">
 
     <nav class="navbar navbar-expand-sm navbar-dark fixed-top bg-primary mb-3" id="main-navbar">
-        <a href="https://quentinlagadou.com/" class="navbar-brand text-info">Quentin Lagadou</a>
+        <a href="#top" class="navbar-brand text-info">Quentin Lagadou</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-liens">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -42,7 +42,7 @@
 
     <div class="container bg-white col-md-6 py-3" style="margin-top: 80px">
 
-        <header class="d-flex justify-content-between flex-wrap" id="top" class="ancre">
+        <header class="d-flex justify-content-between flex-wrap ancre" id="top">
             <img src="./assets/me.png" alt="Quentin Lagadou" class="mx-auto img-thumbnail rounded-circle" height="200"
                 width="200">
             <div class="mx-auto text-center align-self-center">
