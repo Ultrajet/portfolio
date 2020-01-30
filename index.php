@@ -4,6 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Site web de Quentin Lagadou est développeur Web junior PHP/JS/SQL basé en région parisienne.">
+    <meta property="og:url" content="https://quentinlagadou.com">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Quentin Lagadou, Développeur Web junior">
+    <meta property="og:image" content="assets/me.png">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -12,7 +18,7 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon.png">
-    <title>Quentin Lagadou - Développeur Web</title>
+    <title>Quentin Lagadou - Développeur Web junior</title>
 </head>
 
 <body class="bg-light">
@@ -43,7 +49,7 @@
     <div class="container bg-white col-md-6 py-3" style="margin-top: 80px">
 
         <header class="d-flex justify-content-between flex-wrap ancre" id="top">
-            <img src="./assets/me.png" alt="Quentin Lagadou" class="mx-auto img-thumbnail rounded-circle" height="200"
+            <img src="assets/me.png" alt="Quentin Lagadou" class="mx-auto img-thumbnail rounded-circle" height="200"
                 width="200">
             <div class="mx-auto text-center align-self-center">
                 <h1 class="text-info mb-0">Quentin Lagadou</h1>
@@ -277,7 +283,8 @@
                         </div>
                     </div>
 
-                    <p class="text-center">Mon CV : <a href="assets/cv.pdf" target="_blank"><img src="assets/pdf.png" height="40"></a></p>
+                    <p class="text-center">Mon CV : <a href="assets/cv.pdf" target="_blank"><img src="assets/pdf.png"
+                                height="40"></a></p>
                 </section>
             </div>
             <hr class="my-5">
