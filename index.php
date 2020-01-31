@@ -63,7 +63,13 @@
         <hr class="my-5">
         <main>
             <div id="projets" class="ancre">
-                <h3 class="mb-4">projets open-source</h3>
+
+                <div class="bg-primary mb-4 d-flex align-items-center" style="height:64px;border-radius: 10px">
+                    <h3 class="mb-0 ml-2 text-light">
+                        projets open-source
+                    </h3>
+                </div>
+
                 <section>
 
                     <h4 class="text-center"><img src="assets/walk&meet.png" height="30"> <em>Walk &
@@ -223,7 +229,9 @@
             </div>
             <hr class="my-5">
             <div id="competences" class="ancre">
-                <h3 class="mb-4">mes compétences techniques</h3>
+                <div class="bg-primary mb-4 d-flex align-items-center" style="height:64px;border-radius: 10px">
+                    <h3 class="mb-0 ml-2 text-light">mes compétences techniques</h3>
+                </div>
                 <p>
                     <span class="titre">langages :</span><br>
                     HTML, CSS, Javascript + jQuery, PHP, SQL
@@ -245,7 +253,9 @@
             <hr class="my-5">
             <div id="apropos" class="ancre">
                 <section>
-                    <h3 class="mb-4">à propos de moi</h3>
+                    <div class="bg-primary mb-4 d-flex align-items-center" style="height:64px;border-radius: 10px">
+                        <h3 class="mb-0 ml-2 text-light">à propos de moi</h3>
+                    </div>
                     <p class="text-danger text-justify">Je suis diplômé depuis novembre 2019 d'un titre professionnel
                         niveau III
                         Développeur web / web mobile, qui fait suite à une formation intensive de
@@ -289,7 +299,9 @@
             </div>
             <hr class="my-5">
             <div id="contact" class="ancre">
-                <h3 class="mb-4">contact</h3>
+                <div class="bg-primary mb-4 d-flex align-items-center" style="height:64px;border-radius: 10px">
+                    <h3 class="mb-0 ml-2 text-light">contact</h3>
+                </div>
                 <p class="text-justify">
                     Vous souhaitez en savoir plus sur mes compétences ou les projets que j'ai
                     menés? Vous avez une place pour moi dans votre équipe? Vous voulez
