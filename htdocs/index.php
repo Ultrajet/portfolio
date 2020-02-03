@@ -39,10 +39,10 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#apropos">à propos</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact">contact</a>
-                </li>
             </ul>
+            <button class="btn btn-success" href="#contact">
+                contact
+            </button>
         </div>
     </nav>
 
@@ -64,7 +64,7 @@
         <main>
             <div id="projets" class="ancre">
 
-                <div class="bg-primary mb-4 d-flex align-items-center" style="height:64px;border-radius: 10px">
+                <div class="bg-primary mb-4 d-flex align-items-center" style="min-height:64px;border-radius: 10px">
                     <h3 class="mb-0 ml-2 text-light">
                         projets open-source
                     </h3>
@@ -229,7 +229,7 @@
             </div>
             <hr class="my-5">
             <div id="competences" class="ancre">
-                <div class="bg-primary mb-4 d-flex align-items-center" style="height:64px;border-radius: 10px">
+                <div class="bg-primary mb-4 d-flex align-items-center" style="min-height:64px;border-radius: 10px">
                     <h3 class="mb-0 ml-2 text-light">mes compétences techniques</h3>
                 </div>
                 <p>
@@ -253,13 +253,10 @@
             <hr class="my-5">
             <div id="apropos" class="ancre">
                 <section>
-                    <div class="bg-primary mb-4 d-flex align-items-center" style="height:64px;border-radius: 10px">
+                    <div class="bg-primary mb-4 d-flex align-items-center" style="min-height:64px;border-radius: 10px">
                         <h3 class="mb-0 ml-2 text-light">à propos de moi</h3>
                     </div>
-                    <p class="text-danger text-justify">Je suis diplômé depuis novembre 2019 d'un titre professionnel
-                        niveau III
-                        Développeur web / web mobile, qui fait suite à une formation intensive de
-                        600 heures chez Webforce3.</p>
+                    <p class="text-danger text-justify">Je suis diplômé depuis novembre 2019 d'un titre professionnel niveau III Développeur web / web mobile, qui fait suite à une formation intensive de 600 heures chez Webforce3.</p>
 
                     <button type="button" class="d-block mx-auto btn btn-info mb-2" data-toggle="modal"
                         data-target="#modalApropos">En savoir plus</button>
@@ -275,19 +272,14 @@
                                     </button>
                                 </div>
                                 <div class="modal-body">
-                                    <p class="text-justify">Mon aventure de développeur commence au début de mon
-                                        adolescence, en faisant mes armes sur feu Le Site du Zéro où j'ai approché le
-                                        HTML/CSS d'époque, ainsi que le PHP procédural. J'ai immédiatement accroché au
-                                        dialogue avec la machine informatique et j'ai découvert un terrain de jeu infini
-                                        dont les seules limites sont mon imagination.<br>
+                                    <p class="text-justify">
+                                        Mon aventure de développeur commence au début de mon adolescence, en faisant mes armes sur feu Le Site du Zéro où j'ai approché le HTML/CSS d'époque, ainsi que le PHP procédural. J'ai immédiatement accroché au dialogue avec la machine informatique et j'ai découvert un terrain de jeu infini dont les seules limites sont mon imagination.<br>
                                         <br>
-                                        Plusieurs mods de jeux et expérimentations de musique électronique plus tard,
-                                        j'ai rejoint Webforce3 en 2019 pour me former professionnellement au métier de
-                                        Développeur Web. Ici j'ai rencontré des professeurs qui m'ont permis d'asseoir
-                                        mes connaissances, ainsi que de partager ma passion avec des développeurs en
-                                        herbe dont certains sont devenus par la suite des amis. Depuis, je monte en
-                                        expérience en poursuivant des projets en équipe, où je peux mettre au service du
-                                        collectif mon esprit hybride technologique-artistique.</p>
+                                        Plusieurs mods de jeux et expérimentations de musique électronique plus tard, j'ai rejoint Webforce3 en 2019 pour me former professionnellement au métier de Développeur Web. Ici j'ai rencontré des professeurs qui m'ont permis d'asseoir mes connaissances, ainsi que de partager ma passion avec des développeurs en herbe dont certains sont devenus par la suite des amis. Depuis, je monte en expérience en poursuivant des projets en équipe, où je peux mettre au service du collectif mon esprit hybride technologique-artistique.<br>
+                                    </p>
+                                    <p class="text-center" style="font-size:1rem">
+                                        Vous pouvez retrouver mes créations musicales sur mon profil Soundcloud : <a href="https://soundcloud.com/teddywaldon" target="_blank"><img src="assets/sc.png" height="40"></a>
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -299,7 +291,7 @@
             </div>
             <hr class="my-5">
             <div id="contact" class="ancre">
-                <div class="bg-primary mb-4 d-flex align-items-center" style="height:64px;border-radius: 10px">
+                <div class="bg-primary mb-4 d-flex align-items-center" style="min-height:64px;border-radius: 10px">
                     <h3 class="mb-0 ml-2 text-light">contact</h3>
                 </div>
                 <p class="text-justify">
