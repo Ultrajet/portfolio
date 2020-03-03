@@ -4,15 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="Bienvenue sur mon site, je suis Développeur Web junior PHP/JS/SQL basé en région parisienne.">
+    <meta name="description" content="Bienvenue sur mon site, je suis Développeur Web junior PHP/JS/SQL basé en région parisienne.">
     <meta property="og:url" content="https://quentinlagadou.com">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Quentin Lagadou - Développeur Web junior">
     <meta property="og:image" content="https://quentinlagadou.com/assets/og_image.png">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Archivo&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
@@ -49,15 +47,12 @@
     <div class="container bg-white col-md-6 py-3" style="margin-top: 80px">
 
         <header class="d-flex justify-content-between flex-wrap ancre" id="top">
-            <img src="assets/me.png" alt="Quentin Lagadou" class="mx-auto img-thumbnail rounded-circle" height="200"
-                width="200">
+            <img src="assets/me.png" alt="Quentin Lagadou" class="mx-auto img-thumbnail rounded-circle" height="200" width="200">
             <div class="mx-auto text-center align-self-center">
                 <h1 class="text-info mb-0">Quentin Lagadou</h1>
                 <h2 class="mb-0" style="font-size: 2rem">Développeur Web Junior</h2>
                 <h3 style="font-size: 1.5rem">PHP/JS/SQL - Symfony 4</h3>
-                <span><a href="https://github.com/Ultrajet"><img src="assets/github.png" height="25" class="pr-2"></a><a
-                        href="https://www.linkedin.com/in/quentin-lagadou/"><img src="assets/linkedin.png"
-                            height="25"></a></span>
+                <span><a href="https://github.com/Ultrajet"><img src="assets/github.png" height="25" class="pr-2"></a><a href="https://www.linkedin.com/in/quentin-lagadou/"><img src="assets/linkedin.png" height="25"></a></span>
             </div>
         </header>
         <hr class="my-5">
@@ -80,15 +75,18 @@
                         avec eux. Ils disposent d'une messagerie instantanée afin de
                         communiquer. Projet de soutenance pour le titre
                         professionnel Développeur web et web mobile.</p>
+                    <div class="text-center">
+                        <span class="badge badge-danger">Nouveau!</span>
+                        <a href="https://walkandmeet.quentinlagadou.com/" target="_blank">Accéder au site</a>
+                    </div>
                     <a href="https://github.com/Ultrajet/projetgo">
                         <div class="d-flex justify-content-center align-items-center flex-wrap">
-                            <img src="assets/git_repo.png" height="30" class="pr-1">
+                            <img src="assets/git_repo.png" height="20" class="pr-1">
                             https://github.com/Ultrajet/projetgo
                         </div>
                     </a>
 
-                    <button type="button" class="d-block mx-auto btn btn-info mb-4" data-toggle="modal"
-                        data-target="#screensWalk">
+                    <button type="button" class="d-block mx-auto btn btn-info mt-2 mb-4" data-toggle="modal" data-target="#screensWalk">
                         Screenshots
                     </button>
 
@@ -115,13 +113,11 @@
                                                 <img class="d-block w-100" src="assets/w&m3.png" alt="Third slide">
                                             </div>
                                         </div>
-                                        <a class="carousel-control-prev" href="#carouselWalk" role="button"
-                                            data-slide="prev">
+                                        <a class="carousel-control-prev" href="#carouselWalk" role="button" data-slide="prev">
                                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                             <span class="sr-only">Previous</span>
                                         </a>
-                                        <a class="carousel-control-next" href="#carouselWalk" role="button"
-                                            data-slide="next">
+                                        <a class="carousel-control-next" href="#carouselWalk" role="button" data-slide="next">
                                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                             <span class="sr-only">Next</span>
                                         </a>
@@ -147,15 +143,18 @@
                         administrateurs. Les utilisateurs peuvent louer pour autant
                         de temps qu’ils veulent, à partir de 24 heures. Projet de
                         soutenance pour Webforce3.</p>
+                    <div class="text-center">
+                        <span class="badge badge-danger">Nouveau!</span>
+                        <a href="https://geekation.quentinlagadou.com/" target="_blank">Accéder au site</a>
+                    </div>
                     <a href="https://github.com/Ultrajet/Geekation">
                         <div class="d-flex justify-content-center align-items-center flex-wrap">
-                            <img src="assets/git_repo.png" height="30" class="pr-1">
+                            <img src="assets/git_repo.png" height="20" class="pr-1">
                             https://github.com/Ultrajet/Geekation
                         </div>
                     </a>
 
-                    <button type="button" class="d-block mx-auto btn btn-info mb-4" data-toggle="modal"
-                        data-target="#screensGeek">
+                    <button type="button" class="d-block mx-auto btn btn-info mt-2 mb-4" data-toggle="modal" data-target="#screensGeek">
                         Screenshots
                     </button>
 
@@ -182,13 +181,11 @@
                                                 <img class="d-block w-100" src="assets/geek3.png" alt="Third slide">
                                             </div>
                                         </div>
-                                        <a class="carousel-control-prev" href="#carouselGeek" role="button"
-                                            data-slide="prev">
+                                        <a class="carousel-control-prev" href="#carouselGeek" role="button" data-slide="prev">
                                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                             <span class="sr-only">Previous</span>
                                         </a>
-                                        <a class="carousel-control-next" href="#carouselGeek" role="button"
-                                            data-slide="next">
+                                        <a class="carousel-control-next" href="#carouselGeek" role="button" data-slide="next">
                                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                             <span class="sr-only">Next</span>
                                         </a>
@@ -215,9 +212,13 @@
                         duo, sert d'expérimentation, entre autre pour savoir jusqu'où
                         il est possible de coder en PHP procédural avant de migrer
                         sur un framework MVC type Symfony.</p>
+                    <div class="text-center">
+                        <span class="badge badge-danger">Nouveau!</span>
+                        <a href="https://wearegenealogy.quentinlagadou.com/" target="_blank">Accéder au site</a>
+                    </div>
                     <a href="https://github.com/bldlr/Genealogie">
                         <div class="d-flex justify-content-center align-items-center flex-wrap mb-4">
-                            <img src="assets/git_repo.png" height="30" class="pr-1">
+                            <img src="assets/git_repo.png" height="20" class="pr-1">
                             https://github.com/bldlr/Genealogie
                         </div>
                     </a>
@@ -258,8 +259,7 @@
                     </div>
                     <p class="text-danger text-justify">Je suis diplômé depuis novembre 2019 d'un titre professionnel niveau III Développeur web / web mobile, qui fait suite à une formation intensive de 600 heures chez Webforce3.</p>
 
-                    <button type="button" class="d-block mx-auto btn btn-info mb-2" data-toggle="modal"
-                        data-target="#modalApropos">En savoir plus</button>
+                    <button type="button" class="d-block mx-auto btn btn-info mb-2" data-toggle="modal" data-target="#modalApropos">En savoir plus</button>
 
                     <!-- Modal -->
                     <div class="modal fade" id="modalApropos" tabindex="-1" role="dialog" aria-hidden="true">
@@ -285,8 +285,7 @@
                         </div>
                     </div>
 
-                    <p class="text-center">Mon CV : <a href="assets/cv.pdf" target="_blank"><img src="assets/pdf.png"
-                                height="40"></a></p>
+                    <p class="text-center">Mon CV : <a href="assets/cv.pdf" target="_blank"><img src="assets/pdf.png" height="40"></a></p>
                 </section>
             </div>
             <hr class="my-5">
@@ -308,14 +307,12 @@
                         </div>
                         <div class="form-group col-sm-6">
                             <label for="email">mail</label>
-                            <input type="email" class="form-control" name="email" id="email"
-                                placeholder="Votre adresse mail">
+                            <input type="email" class="form-control" name="email" id="email" placeholder="Votre adresse mail">
                         </div>
                     </div>
                     <div class="form-group">
                         <label for="message">message</label>
-                        <textarea class="form-control" name="message" id="message" rows="10"
-                            style="color:inherit"></textarea>
+                        <textarea class="form-control" name="message" id="message" rows="10" style="color:inherit"></textarea>
                     </div>
                     <button type="submit" class="d-block mx-auto btn btn-primary">Envoyer</button>
                 </form>
@@ -329,13 +326,10 @@
             Lagadou</p>
     </footer>
 
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
-        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
     </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
     <script src="js/navbar.js"></script>
     <script src="js/form.js"></script>
