@@ -25,6 +25,10 @@ nav, header {
     margin-right: 30%
 }
 
+#projets a .d-flex {
+    font-size: 14px
+}
+
 h4 em {
     font-size: 1.2em;
     background-image: linear-gradient(#fff 50%, #FAE212 50%)
