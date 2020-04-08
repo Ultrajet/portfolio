@@ -10,6 +10,10 @@ nav, header {
     border-radius: 10px
 }
 
+.img-thumbnail {
+    height: 200px!important
+}
+
 .container p, section a, label {
     font-size: 1.3rem;
     line-height: 1.3
