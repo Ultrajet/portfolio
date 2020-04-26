@@ -295,8 +295,8 @@
                 </div>
                 <p class="text-justify">
                     Vous souhaitez en savoir plus sur mes compétences ou les projets que j'ai
-                    menés? Vous avez une place pour moi dans votre équipe? Vous voulez
-                    parler musique ou jeux vidéos?<br>
+                    menés ? Vous avez une place pour moi dans votre équipe ? Vous voulez
+                    parler musique ou jeux vidéos ?<br>
                     N'hésitez pas à envoyer un message, je vous réponds au plus vite.
                 </p>
                 <form action="" method="post">
